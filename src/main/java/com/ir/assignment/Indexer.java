@@ -167,6 +167,7 @@ public class Indexer {
 		return writer.numDocs();
 	}
 
+	//Geting HTML Content
 	public List<String> getHtmlContent(File file) {
 		List<String> htmlContent = new ArrayList<String>();
 		String fileContent = new String();
